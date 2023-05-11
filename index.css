@@ -1,3 +1,4 @@
+/* Setup color variable */
 :root {
   --blue: #2b84af;
   --dark-blue: #051630;
@@ -9,10 +10,12 @@
   margin: 2px;
   box-sizing: border-box;
 }
+
 ul {
   padding-left: 22px;
   margin-bottom: 25px;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -20,9 +23,12 @@ body {
   justify-content: center;
   background-color: #d1e1fa;
 }
-html, body {
+
+html,
+body {
   margin-top: O;
 }
+
 main {
   display: flex;
   width: 80%;
@@ -31,7 +37,6 @@ main {
 }
 
 .left {
-  /* background-color: var(--dark-blue); */
   color: var(--white);
   padding-left: 20px;
   max-width: 45%;
@@ -106,32 +111,40 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
 .langs {
   display: flex;
   justify-content: space-between;
 }
+
 .cercles {
   display: flex;
   gap: 5px;
 }
+
 .cercle {
   width: 10px;
   height: 10px;
   background-color: var(--blue);
   border-radius: 50%;
 }
+
 .none {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
+
 .para {
   margin-bottom: 7%;
 }
+
 .para p {
   margin-bottom: 15px;
 }
+
 a {
   color: aqua;
 }
+
 .subtitle {
   font-size: 1em;
 }
@@ -140,6 +153,8 @@ span {
   color: var(--while);
   font-weight: bold;
 }
+
+/* change lang disposition for screen size less than 1047 */
 @media (max-width: 1047px) {
   .langs {
     display: flex;
@@ -148,8 +163,10 @@ span {
   .skills {
     justify-content: space-around;
   }
-
 }
+
+/* change  dispositions for screen size less than 768 */
+
 @media (max-width: 768px) {
   * {
     font-size: 1em;
@@ -182,10 +199,9 @@ span {
     width: 7px;
     height: 7px;
     border-radius: 50%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.skills {
-  display: flex;
-  flex-direction: column;
-}
-}
-
