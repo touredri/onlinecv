@@ -23,7 +23,7 @@ This web site show my Resume in detail
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/touredri/bookstore/issues).
+Feel free to check the [issues page](https://github.com/touredri/onlinecv/issues).
 
 
 <!-- SUPPORT -->
