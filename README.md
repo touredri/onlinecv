@@ -9,7 +9,7 @@ This web site show my Resume in detail
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](touredri.github.io/onlinecv)
+- [Live Demo Link](https://touredri.github.io/onlinecv/)
 
 ## 👥 Authors <a name="authors"></a>
 
