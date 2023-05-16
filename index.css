@@ -103,6 +103,7 @@ hr {
 .place {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .skills {
   display: flex;
